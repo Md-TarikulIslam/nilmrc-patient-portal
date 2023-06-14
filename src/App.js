@@ -15,7 +15,7 @@ function App() {
     },
   ]);
   return (
-    <div className="">
+    <div className="min-h-screen  bg-blue-50">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
