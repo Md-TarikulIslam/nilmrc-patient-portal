@@ -33,7 +33,7 @@ export default function LoginForm() {
   };
 
   return (
-  <div className="p-0 md:p-10">
+  <div className="p-0 md:py-12 max-w-screen-2xl mx-auto">
       <div className="flex flex-col lg:flex-row justify-between  bg-blue-100 p-20 border rounded-xl my-auto items-center">
       <div>
         <img className="login mb-16 lg:mb-0 lg:w-4/5 xl:w-3/6  rounded-lg shadow-xl" src={img} alt="" />
